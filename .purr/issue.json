@@ -1,0 +1,45 @@
+{
+  "config": {
+    "topics": [
+      {
+        "id": "1",
+        "prompts": [
+          {
+            "id": "1-1",
+            "value": "Are you running the latest version? 🎉",
+            "responses": [
+              {
+                "id": "1-1-1",
+                "fixed": true,
+                "value": "Yes ✅"
+              },
+              {
+                "id": "1-1-2",
+                "fixed": true,
+                "value": "No ⛔"
+              },
+              {
+                "id": "1-1-3",
+                "fixed": false
+              }
+            ]
+          },
+          {
+            "id": "1-2",
+            "value": "Please paste a reproduction link below, if you are unsure where to do this, we suggest code sandbox (https://codesandbox.io/). ✌",
+            "responses": [
+              {
+                "id": "1-2-1",
+                "fixed": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "settings": {
+      "webhook": null,
+      "shuffle": true
+    }
+  }
+}
