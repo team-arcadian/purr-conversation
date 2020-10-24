@@ -1,33 +1,31 @@
 {
-  "config": {
-    "conversation": {
-      "topics": [
-        {
-          "name": "Software",
-          "prompts": [
-            {
-              "value": "Are you running the latest version? 🎉",
-              "allowCustomResponse": true,
-              "replies": [
-                {
-                  "value": "Yes ✅"
-                },
-                {
-                  "value": "No ⛔"
-                }
-              ]
-            },
-            {
-              "value": "Please paste a reproduction link below, if you are unsure where to do this, we suggest code sandbox (https://codesandbox.io/). ✌",
-              "allowCustomResponse": true
-            }
-          ]
-        }
-      ]
-    },
-    "settings": {
-      "webhook": null,
-      "randomize": true
-    }
+  "conversation": {
+    "topics": [
+      {
+        "name": "Software",
+        "prompts": [
+          {
+            "value": "Are you running the latest version? 🎉",
+            "allowCustomResponse": true,
+            "replies": [
+              {
+                "value": "Yes ✅"
+              },
+              {
+                "value": "No ⛔"
+              }
+            ]
+          },
+          {
+            "value": "Please paste a reproduction link below, if you are unsure where to do this, we suggest code sandbox (https://codesandbox.io/). ✌",
+            "allowCustomResponse": true
+          }
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "webhook": null,
+    "randomize": true
   }
 }
