@@ -1,7 +1,7 @@
 {
   "randomize": true,
   "settings": {
-    "webhook": "https://github.com/team-arcadian/purr-conversation/pull/97"
+    "webhook": null
   },
   "topics": [
     {
@@ -85,27 +85,6 @@
             }
           },
           "replies": []
-        },
-        {
-          "value": "Is Otis big dumb™?",
-          "allowCustomResponse": false,
-          "metadata": {
-            "position": {
-              "x": 250,
-              "y": 250
-            }
-          },
-          "replies": [
-            {
-              "value": "YES ✅✔✅✔",
-              "metadata": {
-                "position": {
-                  "x": 451,
-                  "y": 360
-                }
-              }
-            }
-          ]
         }
       ]
     },
