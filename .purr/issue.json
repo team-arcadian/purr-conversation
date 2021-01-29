@@ -45,17 +45,7 @@
               "y": 267.5029301283327
             }
           },
-          "replies": [
-            {
-              "value": "Custom Response 📝",
-              "metadata": {
-                "position": {
-                  "x": 122.08963429688936,
-                  "y": 407.9240316085929
-                }
-              }
-            }
-          ]
+          "replies": []
         },
         {
           "value": "Summary of current behaviour ❌",
@@ -66,17 +56,7 @@
               "y": 269.8104131600237
             }
           },
-          "replies": [
-            {
-              "value": "Custom Response 📝",
-              "metadata": {
-                "position": {
-                  "x": 359.12266545493753,
-                  "y": 406.5334606925192
-                }
-              }
-            }
-          ]
+          "replies": []
         },
         {
           "value": "Summary of expected behaviour ✔",
@@ -87,17 +67,7 @@
               "y": 278.14310969742724
             }
           },
-          "replies": [
-            {
-              "value": "Custom Response 📝",
-              "metadata": {
-                "position": {
-                  "x": 604.9477916940837,
-                  "y": 404.0204442424896
-                }
-              }
-            }
-          ]
+          "replies": []
         }
       ]
     },
@@ -114,17 +84,7 @@
               "y": 252.29739670999402
             }
           },
-          "replies": [
-            {
-              "value": "Custom Response 📝",
-              "metadata": {
-                "position": {
-                  "x": 161.55022666522825,
-                  "y": 393.1078098700178
-                }
-              }
-            }
-          ]
+          "replies": []
         },
         {
           "value": "Is Otis big dumb™?",
@@ -135,7 +95,17 @@
               "y": 250
             }
           },
-          "replies": []
+          "replies": [
+            {
+              "value": "YES ✅✔✅✔",
+              "metadata": {
+                "position": {
+                  "x": 451,
+                  "y": 360
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -152,17 +122,7 @@
               "y": 245.97955575751035
             }
           },
-          "replies": [
-            {
-              "value": "Custom Response 📝",
-              "metadata": {
-                "position": {
-                  "x": 150.06324311525793,
-                  "y": 418.37917367995254
-                }
-              }
-            }
-          ]
+          "replies": []
         },
         {
           "value": "Please provide a code example (github, codesandbox etc) 🔗",
@@ -173,17 +133,7 @@
               "y": 246.5539049350089
             }
           },
-          "replies": [
-            {
-              "value": "Custom Response 📝",
-              "metadata": {
-                "position": {
-                  "x": 441.2582761070063,
-                  "y": 405.16914259748665
-                }
-              }
-            }
-          ]
+          "replies": []
         }
       ]
     }
