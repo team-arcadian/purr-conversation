@@ -1,7 +1,7 @@
 {
   "randomize": true,
   "settings": {
-    "webhook": null
+    "webhook": "https://github.com/team-arcadian/purr-conversation/pull/97"
   },
   "topics": [
     {
