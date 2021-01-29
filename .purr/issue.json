@@ -125,6 +125,17 @@
               }
             }
           ]
+        },
+        {
+          "value": "Is Otis big dumb™?",
+          "allowCustomResponse": false,
+          "metadata": {
+            "position": {
+              "x": 250,
+              "y": 250
+            }
+          },
+          "replies": []
         }
       ]
     },
