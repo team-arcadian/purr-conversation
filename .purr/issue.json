@@ -1,16 +1,16 @@
 {
-  "randomize": false,
+  "randomize": true,
   "settings": {
-    "webhook": "https://github.com/keezeden?tab=repositories"
+    "webhook": null
   },
   "topics": [
     {
       "name": "Defaults",
+      "default": true,
       "prompts": [
         {
           "value": "Issue title?",
           "allowCustomResponse": true,
-          "default": true,
           "metadata": {
             "position": {
               "x": 250,
@@ -22,7 +22,6 @@
         {
           "value": "Purr feedback? 🐱",
           "allowCustomResponse": true,
-          "default": true,
           "metadata": {
             "position": {
               "x": 250,
@@ -35,11 +34,11 @@
     },
     {
       "name": "Description",
+      "default": false,
       "prompts": [
         {
           "value": "Please provide a clear and concise description of what the bug is 🐛",
           "allowCustomResponse": true,
-          "default": false,
           "metadata": {
             "position": {
               "x": 24.321257511720205,
@@ -61,7 +60,6 @@
         {
           "value": "Summary of current behaviour ❌",
           "allowCustomResponse": true,
-          "default": false,
           "metadata": {
             "position": {
               "x": 273.8122522949137,
@@ -83,7 +81,6 @@
         {
           "value": "Summary of expected behaviour ✔",
           "allowCustomResponse": true,
-          "default": false,
           "metadata": {
             "position": {
               "x": 523.3902084892941,
@@ -106,11 +103,11 @@
     },
     {
       "name": "Software",
+      "default": false,
       "prompts": [
         {
           "value": "What version of the software are you using? 📚",
           "allowCustomResponse": true,
-          "default": false,
           "metadata": {
             "position": {
               "x": 63.910866490480316,
@@ -133,11 +130,11 @@
     },
     {
       "name": "Reproduction",
+      "default": false,
       "prompts": [
         {
           "value": "What are the steps to reproduce? 🐾",
           "allowCustomResponse": true,
-          "default": false,
           "metadata": {
             "position": {
               "x": 52.423882940509884,
@@ -159,7 +156,6 @@
         {
           "value": "Please provide a code example (github, codesandbox etc) 🔗",
           "allowCustomResponse": true,
-          "default": false,
           "metadata": {
             "position": {
               "x": 322.9423455423116,
