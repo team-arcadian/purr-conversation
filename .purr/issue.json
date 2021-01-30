@@ -22,81 +22,15 @@
       "default": true
     },
     {
-      "name": "Description",
+      "name": "Software",
       "prompts": [
         {
-          "value": "Please provide a clear and concise description of what the bug is 🐛",
+          "value": "What OS are you using?",
           "allowCustomResponse": true,
           "metadata": {
             "position": {
-              "x": 24.321257511720205,
-              "y": 267.5029301283327
-            }
-          },
-          "replies": [
-            {
-              "value": "Custom Response 📝",
-              "metadata": {
-                "displayOnly": false,
-                "position": {
-                  "x": 122.08963429688936,
-                  "y": 407.9240316085929
-                }
-              }
-            }
-          ]
-        },
-        {
-          "value": "Summary of current behaviour ❌",
-          "allowCustomResponse": true,
-          "metadata": {
-            "position": {
-              "x": 273.8122522949137,
-              "y": 269.8104131600237
-            }
-          },
-          "replies": [
-            {
-              "value": "Custom Response 📝",
-              "metadata": {
-                "displayOnly": false,
-                "position": {
-                  "x": 359.12266545493753,
-                  "y": 406.5334606925192
-                }
-              }
-            }
-          ]
-        },
-        {
-          "value": "Summary of expected behaviour ✔",
-          "allowCustomResponse": true,
-          "metadata": {
-            "position": {
-              "x": 523.3902084892941,
-              "y": 278.14310969742724
-            }
-          },
-          "replies": [
-            {
-              "value": "Custom Response 📝",
-              "metadata": {
-                "displayOnly": false,
-                "position": {
-                  "x": 604.9477916940837,
-                  "y": 404.0204442424896
-                }
-              }
-            }
-          ]
-        },
-        {
-          "value": "What OS are you using????",
-          "allowCustomResponse": true,
-          "metadata": {
-            "position": {
-              "x": 557,
-              "y": 17
+              "x": 250,
+              "y": 250
             }
           },
           "replies": [
@@ -105,18 +39,8 @@
               "metadata": {
                 "displayOnly": true,
                 "position": {
-                  "x": 673,
-                  "y": 192
-                }
-              }
-            },
-            {
-              "value": "Linux",
-              "metadata": {
-                "displayOnly": false,
-                "position": {
-                  "x": 397,
-                  "y": 104
+                  "x": 470,
+                  "y": 396
                 }
               }
             },
@@ -125,86 +49,18 @@
               "metadata": {
                 "displayOnly": false,
                 "position": {
-                  "x": 500,
-                  "y": 182
+                  "x": 111,
+                  "y": 328
                 }
               }
-            }
-          ]
-        }
-      ],
-      "default": false
-    },
-    {
-      "name": "Software",
-      "prompts": [
-        {
-          "value": "What version of the software are you using? 📚",
-          "allowCustomResponse": true,
-          "metadata": {
-            "position": {
-              "x": 63.910866490480316,
-              "y": 252.29739670999402
-            }
-          },
-          "replies": [
+            },
             {
-              "value": "Custom Response 📝",
+              "value": "Linux",
               "metadata": {
                 "displayOnly": false,
                 "position": {
-                  "x": 161.55022666522825,
-                  "y": 393.1078098700178
-                }
-              }
-            }
-          ]
-        }
-      ],
-      "default": false
-    },
-    {
-      "name": "Reproduction",
-      "prompts": [
-        {
-          "value": "What are the steps to reproduce? 🐾",
-          "allowCustomResponse": true,
-          "metadata": {
-            "position": {
-              "x": 52.423882940509884,
-              "y": 245.97955575751035
-            }
-          },
-          "replies": [
-            {
-              "value": "Custom Response 📝",
-              "metadata": {
-                "displayOnly": false,
-                "position": {
-                  "x": 150.06324311525793,
-                  "y": 418.37917367995254
-                }
-              }
-            }
-          ]
-        },
-        {
-          "value": "Please provide a code example (github, codesandbox etc) 🔗",
-          "allowCustomResponse": true,
-          "metadata": {
-            "position": {
-              "x": 322.9423455423116,
-              "y": 246.5539049350089
-            }
-          },
-          "replies": [
-            {
-              "value": "Custom Response 📝",
-              "metadata": {
-                "displayOnly": false,
-                "position": {
-                  "x": 441.2582761070063,
-                  "y": 405.16914259748665
+                  "x": 250,
+                  "y": 400
                 }
               }
             }
